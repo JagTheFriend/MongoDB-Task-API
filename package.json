@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-task-api",
+  "version": "1.0.0",
+  "description": "REST API with MongoDB/Mongoose - Database Integration Phase (Modules 7 & 8)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
