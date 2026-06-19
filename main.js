@@ -11,9 +11,8 @@ app.use(express.json());
 
 const isMongoId = (str) => mongoose.Types.ObjectId.isValid(str);
 
-
 app.get('/', (_req, res) => {
-  res.json({ message: 'Task API — Database Integration Phase (Modules 7 & 8)' });
+  res.json({ message: 'Task API — Database Integration Phase' });
 });
 
 const router = express.Router();
